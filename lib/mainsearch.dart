@@ -19,9 +19,11 @@ class _searchmediState extends State<searchmedi> {
         children: [
           Divider(),
           Container(
+
             child: Image.asset(
               'image/Medigaze copy.jpeg',
-              fit: BoxFit.cover,
+              fit: BoxFit.contain,
+
             ),
           ),
           Divider(),
